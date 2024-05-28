@@ -15,7 +15,7 @@ it ('Login Test 1',function(){
 
     it ('Login Test 2',function(){
 
-        cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+        cy.visit('http://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
     
         cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type('Admin{Enter}')
     
